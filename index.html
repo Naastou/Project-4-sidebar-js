@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet sidebar</title>
+    <!-- awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- js -->
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <button class="btn-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="./logo.png" width="140" alt="photo de logo" />
+        <button class="btn-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="links">
+        <ul class="sidebar-links">
+          <li class="sidebar-link">
+            <a href="#">accueil</a>
+          </li>
+          <li class="sidebar-link">
+            <a href="#"> à propos</a>
+          </li>
+          <li class="sidebar-link">
+            <a href="#">projets</a>
+          </li>
+          <li class="sidebar-link">
+            <a href="#">contact</a>
+          </li>
+        </ul>
+        <ul class="sidebar-icons">
+          <li class="sidebar-icon">
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="sidebar-icon">
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="sidebar-icon">
+            <a href="https://twitter.com/">
+              <i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </body>
+</html>
