@@ -41,18 +41,15 @@ body {
   max-width: 100%;
   min-height: 100vh;
   padding: 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   transition: all 0.3s linear;
   transform: translate(-100%);
 }
 .open-sidebar {
   transform: translate(0%);
 }
-/* .hidden.sidebar {
-  display:none
-}
-.content.sidebar {
-    width: 100%;
-} */
+
 .sidebar-header {
   display: flex;
   justify-content: space-between;
@@ -73,11 +70,11 @@ body {
   transform: rotate(360deg);
 }
 
-.links {
+/* .links {
   display: flex;
   flex-direction: column;
   gap: 35rem;
-}
+} */
 .sidebar-links {
   list-style-type: none;
   margin-top: 2rem;
